@@ -64,7 +64,7 @@
             <TextBlock TextWrapping="Wrap" Text="Avoid These" RenderTransformOrigin="0.158,0.281" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <ContentControl Content="ContentControl" Template="{StaticResource EnemyTemplate}"/>
         </StackPanel>
-        <Canvas x:Name="playArea" HorizontalAlignment="Center" Margin="0" Grid.Row="1" VerticalAlignment="Center" Grid.ColumnSpan="3">
+        <Canvas x:Name="playArea" HorizontalAlignment="Center" Margin="486, 198, 0, 0" Grid.Row="1" VerticalAlignment="Center" Grid.ColumnSpan="3">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
